@@ -45,7 +45,7 @@ const HTMLContent = (props) => {
         <Html fullscreen></Html>
 
         <LoadRhinoModel
-          url="/ASite_Rhino5_lowPoly_R3_small.3dm"
+          url="/testModel.3dm"
           setModel={props.setModel}
           canvas={props.canvas}
           setLabels={props.setLabels}
