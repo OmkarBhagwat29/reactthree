@@ -60,6 +60,7 @@ const App = () => {
 
   const [model, setModel] = useState(null);
   const [labels, setLabels] = useState([]);
+  const [camera, setCamera] = useState(null);
 
   useEffect(() => {
     if (model) {
